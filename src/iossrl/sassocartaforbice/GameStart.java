@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class GameStart implements GameContext {
-    private static String[] possibleChoices = { "multi", "quit", "" };
+    private static String[] possibleChoices = { "multi", ESCAPE_STRING, "" };
 
     private static void chooseProgram(String choice, Scanner playerInput) {
 
@@ -14,7 +14,7 @@ public class GameStart implements GameContext {
                 multiMatch.playerMatch();
                 break;
 
-            case "quit":
+            case ESCAPE_STRING:
                 break;
 
             case "":
