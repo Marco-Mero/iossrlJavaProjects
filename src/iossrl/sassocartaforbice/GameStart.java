@@ -10,7 +10,7 @@ public class GameStart implements GameContext {
 
         switch (choice) {
             case "multi":
-                GameLogic multiMatch = new GameLogic(playerInput, "Giocatore1", "Giocatore2");
+                GameLogic multiMatch = new GameLogic(playerInput, "Giocatore 1", "Giocatore 2");
                 multiMatch.playerMatch();
                 break;
 
