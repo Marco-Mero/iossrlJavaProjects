@@ -48,7 +48,6 @@ public class GameLogic implements GameContext {
     }
 
     public void printWinner() {
-        System.out.println("\n        ~~~ Game Over ~~~");
         if (playerOne.getScore() > playerTwo.getScore())
             playerOne.wins();
         else

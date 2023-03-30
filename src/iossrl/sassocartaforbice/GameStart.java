@@ -52,11 +52,11 @@ public class GameStart implements GameContext {
             do {
                 System.out.println(CHOOSE_MODE_MSG);
                 chosenProgram = playerInput.nextLine();
-
                 chooseProgram(chosenProgram, playerInput);
 
             } while (!Arrays.asList(possibleChoices).contains(chosenProgram));
 
         }
+        System.out.println("\n        ~~~ Game Over ~~~\n\nProgramma terminato.");
     }
 }
