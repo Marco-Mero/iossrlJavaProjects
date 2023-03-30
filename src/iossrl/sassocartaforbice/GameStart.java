@@ -57,6 +57,6 @@ public class GameStart implements GameContext {
             } while (!Arrays.asList(possibleChoices).contains(chosenProgram));
 
         }
-        System.out.println("\n        ~~~ Game Over ~~~\n\nProgramma terminato.");
+        System.out.println(GAME_OVER_MSG);
     }
 }
