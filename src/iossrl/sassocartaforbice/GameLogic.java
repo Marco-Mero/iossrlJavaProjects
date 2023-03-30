@@ -28,7 +28,7 @@ public class GameLogic implements GameContext {
     }
 
     private void printScoreBoard() {
-        System.out.println("- - - - - - - -Punti - - - - - - - - -");
+        System.out.println("- - - - - - - - Punti - - - - - - - - \n");
         playerOne.tellScore();
         System.out.print(" || ");
         playerTwo.tellScore();
@@ -36,7 +36,7 @@ public class GameLogic implements GameContext {
     }
 
     public void printLastRound() {
-        System.out.print(playerOne.getName() + ": " + playerOne.getMoveName() + " ~ ");
+        System.out.print("\n" + playerOne.getName() + ": " + playerOne.getMoveName() + " ~ ");
         System.out.print(playerTwo.getName() + ": " + playerTwo.getMoveName() + "\n\n");
 
         if (lastRoundWinner == null) {
