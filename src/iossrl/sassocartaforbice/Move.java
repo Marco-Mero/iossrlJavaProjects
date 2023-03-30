@@ -21,7 +21,6 @@ public enum Move {
     }
 
     public static Move fromString(String move) {
-        move = move.replaceAll("[\\W]", move);
         if (move.contains("sasso"))
             return Move.SASSO;
         if (move.contains("carta"))

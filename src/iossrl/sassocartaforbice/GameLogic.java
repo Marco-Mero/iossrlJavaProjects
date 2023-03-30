@@ -78,13 +78,15 @@ public class GameLogic implements GameContext {
 
     public void setPlayerMoves() {
         playerOne.promptMove();
-        drawGameElements();
-        if (playerTwo.isNamed("computer")) {
-            playerTwo.setRandomMove();
-        } else {
-            playerTwo.promptMove();
+        if (playerOne.getMove() != null) {
+            drawGameElements();
+            if (playerTwo.isNamed("computer")) {
+                playerTwo.setRandomMove();
+            } else {
+                playerTwo.promptMove();
+            }
+            drawGameElements();
         }
-        drawGameElements();
     }
 
     public void playerMatch() {
