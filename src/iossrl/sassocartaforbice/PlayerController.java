@@ -64,11 +64,13 @@ public class PlayerController implements GameContext {
     public Move getMoveFromInput() {
         String inputMove = inputParser.nextLine();
         Move move = Move.fromString(inputMove);
-        if (move != null)
-            return move;
-        else if (inputMove.equals(ESCAPE_STRING))
-            return null;
-        System.out.println(" ~ Input imprevisto, ammessi: sasso, carta o forbice ");
-        return getMoveFromInput();
+        do {
+            if (move != null)
+                return move;
+            else if (inputMove.equals(ESCAPE_STRING))
+                System.out.println(" ~ Input imprevisto, ammessi: sasso, carta o forbice ");
+        } while (!inputMove.equals("sasso") && !inputMove.equals("carta") && !inputMove.equals("forbice")
+                && !inputMove.equals(ESCAPE_STRING));
+        return null;
     }
 }
