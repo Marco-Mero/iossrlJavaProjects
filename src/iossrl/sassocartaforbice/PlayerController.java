@@ -66,7 +66,7 @@ public class PlayerController implements GameContext {
         Move move = Move.fromString(inputMove);
         if (move != null)
             return move;
-        else if (inputMove == ESCAPE_STRING)
+        else if (inputMove.equals(ESCAPE_STRING))
             return null;
         System.out.println(" ~ Input imprevisto, ammessi: sasso, carta o forbice ");
         return getMoveFromInput();
