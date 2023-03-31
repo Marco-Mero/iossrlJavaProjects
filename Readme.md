@@ -1,10 +1,11 @@
 ###### Note:
 
-- Le cartelle dei progetti sono in src/iossrl
-- I file .bat compilano il relativo progetto nella cartella bin/iossrl/\*
-- Il file UtilsArrayTesting è duplicato per comodità di test
+- La mancanza di Javadoc è da considerarsi in ottemperanza con la direttiva di evitare commenti.
+- Le cartelle dei progetti sono in src/iossrl.
+- I file .bat compilano il relativo progetto nella cartella bin /iossrl/\*
+- Il file UtilsArrayTesting è duplicato per comodità di test.
 - CSVGarage accenna un interfaccia di comunicazione Database SQL tramite modelli, ma incompleto.
-- Primo progetto Java su Git
+- Primo progetto Java su Git.
 
 ---
 
