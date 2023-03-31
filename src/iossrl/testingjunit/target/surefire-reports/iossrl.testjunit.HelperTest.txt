@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: iossrl.testjunit.HelperTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.025 s <<< FAILURE! - in iossrl.testjunit.HelperTest
-iossrl.testjunit.HelperTest.testHelperMethodFAILURE  Time elapsed: 0.007 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
-	at iossrl.testjunit.HelperTest.testHelperMethodFAILURE(HelperTest.java:29)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in iossrl.testjunit.HelperTest
