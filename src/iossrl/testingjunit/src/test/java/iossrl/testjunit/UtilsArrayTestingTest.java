@@ -38,12 +38,25 @@ public class UtilsArrayTestingTest {
      * base case for printing tests.
      */
     @Test
-    public void testPrintArr() {
+    public void basePrintArr() {
         int[] intArray = {1, 2, 3, 4};
         ByteArrayOutputStream outContent = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outContent));
         UtilsArrayTesting.printArr(intArray);
         assertEquals("[1 2 3 4]", outContent.toString());
+    }
+
+    /**
+     * *printArr()
+     * printing empty array.
+     */
+    @Test
+    public void emptyPrintArr() {
+        int[] intArray = {};
+        ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
+        UtilsArrayTesting.printArr(intArray);
+        assertEquals("[ ]", outContent.toString());
     }
 
 }
