@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class UtilsArrayTestingTest {
     /**
      * *stringToIntArray()
-     * Testing reformatting.
+     * reformatting.
      */
     @Test
     void baseStringToIntArray() {
@@ -25,7 +25,7 @@ public class UtilsArrayTestingTest {
 
     /**
      * *stringToIntArray()
-     * Testing empty string.
+     * empty string.
      */
     void emptyStringToIntArray() {
         int[] expected = new int[0];
@@ -57,6 +57,19 @@ public class UtilsArrayTestingTest {
         System.setOut(new PrintStream(outContent));
         UtilsArrayTesting.printArr(intArray);
         assertEquals("[ ]", outContent.toString());
+    }
+
+    /**
+    * *printArr()
+    * printing array with only one position.
+    */
+    @Test
+    public void singlePositionPrintArr() {
+        int[] intArray = {1};
+        ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
+        UtilsArrayTesting.printArr(intArray);
+        assertEquals("[1]", outContent.toString());
     }
 
 }

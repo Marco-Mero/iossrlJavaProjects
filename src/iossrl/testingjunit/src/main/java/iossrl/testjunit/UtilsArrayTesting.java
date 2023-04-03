@@ -2,17 +2,11 @@ package iossrl.testjunit;
 
 import java.util.Random;
 
-/**
- * nojdoc.
- */
+@SuppressWarnings({"checkstyle:MissingJavadocType", "checkstyle:MissingJavadocMethod"})
 public final class UtilsArrayTesting {
     private UtilsArrayTesting() {
     }
 
-    /**
-     * @param originalArrayString
-     * @return
-     */
     public static int[] stringToIntArray(String originalArrayString) {
         String arrayString = originalArrayString.trim()
                 .replaceAll("[^\\d\\-\\s]", "")
@@ -30,9 +24,6 @@ public final class UtilsArrayTesting {
         return intArray;
     }
 
-    /**
-     * @param intArray
-     */
     public static void printArr(int[] intArray) {
 
         if (intArray.length < 1) {
@@ -46,22 +37,10 @@ public final class UtilsArrayTesting {
         }
     }
 
-    /**
-     * @param maxValue
-     * @param length
-     * @return
-     */
     public static int[] generateIntArray(int maxValue, int length) {
         return generateIntArray(0, Math.max(maxValue, 0), length, 0);
     }
 
-    /**
-     * @param minValue
-     * @param initialMax
-     * @param minLength
-     * @param lengthDifference
-     * @return
-     */
     public static int[] generateIntArray(int minValue, int initialMax, int minLength, int lengthDifference) {
         int maxValue = Math.max(initialMax, 0);
         Random rand = new Random();
