@@ -19,9 +19,7 @@ public class HelperTest {
         assertEquals(2, result);
     }
 
-    // /**
-    //  * This simple test should fail, showing how JUnit behaves on failure.
-    //  */
+    //  This simple test should fail, showing how JUnit behaves on failure.
     // @Test
     // void testHelperMethodFAILURE() {
     //     int result = Helper.helperMethod();

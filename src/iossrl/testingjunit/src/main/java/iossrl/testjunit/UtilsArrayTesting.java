@@ -3,7 +3,7 @@ package iossrl.testjunit;
 import java.util.Random;
 
 /**
- * none of your business, maven.
+ * nojdoc.
  */
 public final class UtilsArrayTesting {
     private UtilsArrayTesting() {

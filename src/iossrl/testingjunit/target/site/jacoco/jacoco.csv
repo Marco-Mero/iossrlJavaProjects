@@ -1,4 +1,5 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
 testingjunit,iossrl.testjunit,UtilsArrayTesting,101,43,10,4,17,10,9,2,3,1
 testingjunit,iossrl.testjunit,Helper,0,2,0,0,0,1,0,1,0,1
+testingjunit,iossrl.testjunit,Calculator,0,7,0,0,0,2,0,2,0,2
 testingjunit,iossrl.testjunit,App,4,0,0,0,2,0,1,0,1,0
