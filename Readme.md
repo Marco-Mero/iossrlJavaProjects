@@ -1,15 +1,16 @@
+### Questi progetti sono stati completati senza l'aiuto di build tool di alcun tipo e con esperienza minima, sono da considerarsi a scopo didattico e rimangono visibili finché non saranno presenti nuovi progetti più completi. 
+---
 ###### Note:
-
 - La mancanza di Javadoc è da considerarsi in ottemperanza con la direttiva di evitare commenti.
 - Le cartelle dei progetti sono in src/iossrl.
 - I file .bat compilano il relativo progetto nella cartella bin /iossrl/\*
 - Il file UtilsArrayTesting è duplicato per comodità di test.
-- CSVGarage accenna un interfaccia di comunicazione Database SQL tramite modelli, ma incompleto.
-- Primo progetto Java su Git.
+- CSVGarage accenna un interfaccia di comunicazione Database SQL tramite modelli, ma è incompleto.
+- Primo progetto Java su Git, imprecisioni e errori non sono corretti perché il progetto è da considerarsi concluso.
 
 ---
 
-# Consegne - 1.0.4
+# Consegne ricevute dall'azienda
 
 ## Requisiti Fondamentali Generici
 
