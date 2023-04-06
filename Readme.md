@@ -1,4 +1,4 @@
-###### I progetti in questa repository sono stati completati senza l'aiuto di build tool di alcun tipo e con esperienza completamente autodidatta. Sono da considerarsi a scopo accademico e rimangono visibili finché non saranno presenti progetti più completi. 
+##### I progetti in questa repository sono stati completati senza l'aiuto di build tool di alcun tipo e con esperienza completamente autodidatta. Sono da considerarsi a scopo accademico e rimangono visibili finché non saranno presenti progetti più completi. 
 ---
 ###### Note:
 - La mancanza di Javadoc è da considerarsi in ottemperanza con la direttiva di evitare commenti.
